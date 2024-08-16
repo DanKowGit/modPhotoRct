@@ -57,6 +57,9 @@ The Python modules for the operation of the reactor controller are documented in
 ┃   ┃   ┃   ┃   ┣ 📜corpus_90x90x140mm_back_wall.stl
 ┃   ┃   ┃   ┃   ┣ 📜corpus_90x90x140mm_front_wall.stl
 ┃   ┃   ┃   ┃   ┣ 📜corpus_90x90x140mm_side_walls.stl
+┃   ┃   ┃   ┃   ┣ 📜corpus_90x90x140mm_side_walls_LED_Irradiation_Firesting_ports.ipt
+┃   ┃   ┃   ┃   ┣ 📜corpus_90x90x140mm_side_walls_LED_Irradiation_Firesting_ports.stl
+┃   ┃   ┃   ┃   ┣ 📜corpus_90x90x140mm_side_walls_LED_Irradiation_Firesting_ports.yaml
 ┃   ┃   ┃   ┃   ┣ 📜corpus_cover.stl
 ┃   ┃   ┃   ┃   ┗ 📜corpus_stand.stl
 ┃   ┃   ┃   ┣ 📂01_irradiation_module
