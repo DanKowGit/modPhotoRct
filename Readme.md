@@ -194,8 +194,10 @@ The Python modules for the operation of the reactor controller are documented in
 ┃   ┃   ┣ 📂05_power_supplies
 ┃   ┃   ┃   ┣ 📂00_12V_5A
 ┃   ┃   ┃   ┃   ┗ 📜12V_5A.txt
-┃   ┃   ┃   ┗ 📂00_24V_6A
+┃   ┃   ┃   ┣ 📂01_24V_6A
 ┃   ┃   ┃   ┃   ┗ 📜24V_6A.txt
+┃   ┃   ┃   ┗ 📂02_Analoge_ACDC_Laboratory_Power_Supply
+┃   ┃   ┃   ┃   ┗ 📜KORAD_KA3005P.txt
 ┃   ┃   ┣ 📂06_small_parts
 ┃   ┃   ┃   ┣ 📂00_stripboard
 ┃   ┃   ┃   ┃   ┗ 📜stripboard_WR_914-HP.txt
