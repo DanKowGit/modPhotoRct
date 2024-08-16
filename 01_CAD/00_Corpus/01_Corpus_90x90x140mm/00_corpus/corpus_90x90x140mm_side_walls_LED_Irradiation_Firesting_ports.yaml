@@ -1,0 +1,144 @@
+curation:
+  - role: developer  # person who develops the module
+    name: Daniel Kowalczyk
+    department: Institute of Chemical Engineering
+    institution: Ulm University
+    location: Ulm
+  - role: principle investigator  # PI of module developer
+    name: Dirk Ziegenbalg
+    department: Institute of Chemical Engineering
+    institution: Ulm University
+    location: Ulm
+  - role: supervisor  # person who supervises the project
+    name: Daniel Kowalczyk
+    department: Institute of Chemical Engineering
+    institution: Ulm University
+    location: Ulm
+
+project:  # project information, what kind of module is to be developed
+  date: 2024-08-16
+  title: irradiation module development
+  description: development of a side irradiation module for the modular photoreactor
+
+experimental:  # information on the developed module
+  research question:  # what is the purpose of the developed module?
+  module name:
+  folder directory: modPhotoRct\01_CAD\00_Corpus\01_Corpus_90x90x140mm\00_corpus
+  CAD:
+    CAD file: corpus_90x90x140mm_side_walls_LED_Irradiation_Firesting_ports.ipt
+    stl file: corpus_90x90x140mm_side_walls_LED_Irradiation_Firesting_ports.stl
+    url: https://github.com/DanKowGit/modPhotoRct.git
+    CAD software:  # software used for CAD modeling
+      name: Autodesk Inventor Professional
+      version: 2021
+  module components:
+    component 1:
+      component amount: 2
+      component category: 01_LEDs  # classification of the used component
+      folder directory: D:\01_Projektbearbeitung\2024\00_GitHub\modPhotoRct\02_MATERIALS\00_electronics\01_LEDs\UV\405nm\onecore
+      technical information:
+        file: LZ1-10UB00-01U7.txt
+        Hersteller/Manufacturer: LED Engin
+        Herstellerreferenz/Manufacturer reference: LZ1-10UB00-01U7
+        Verkäufer/Supplier: Mouser Electronics
+        link: https://www.mouser.de/ProductDetail/LED-Engin/LZ1-10UB00-01U7?qs=MLItCLRbWszTzUactEXLXw%3D%3D
+        link data sheet: https://www.mouser.de/datasheet/2/311/LED_2520Engin_Datasheet_LuxiGen_LZ1_00UB00_rev2_1_-2298110.pdf
+    component 2:
+      component amount: 2
+      folder directory: D:\01_Projektbearbeitung\2024\00_GitHub\modPhotoRct\02_MATERIALS\01_accessories\03_cooler\01_LED_cooler\01_50mm_cooler
+      component category: 01_LED_cooler  # classification of the used component
+      technical information:
+        file: sink_s-1265491.txt
+        Hersteller/Manufacturer: Ohmite
+        Herstellerreferenz/Manufacturer reference: SV-LED-151E
+        Verkäufer/Supplier: Mouser Electronics
+        link: https://www.mouser.de/ProductDetail/Ohmite/SV-LED-151E?qs=%2Fha2pyFaduhqcNGpiq2d6pnUpr8UAbRwE6xGWmsJnwM%3D
+        link data sheet: https://www.mouser.de/datasheet/2/303/sink_s-1265491.pdf
+    component 3:
+      component amount: 4
+      folder directory: 
+      component category: cooler screws module  # classification of the used component
+      technical information:
+        file: 
+        Hersteller/Manufacturer: 
+        Herstellerreferenz/Manufacturer reference: 
+        Verkäufer/Supplier: 
+        link: 
+        link data sheet: 
+    component 4:
+      component amount: 6
+      folder directory: 
+      component category: cooler screws LED SMD  # classification of the used component
+      technical information:
+        file: 
+        Hersteller/Manufacturer: 
+        Herstellerreferenz/Manufacturer reference: 
+        Verkäufer/Supplier: 
+        link: 
+        link data sheet:
+    component 5:
+      component amount: 2
+      folder directory: 
+      component category: red banana plug  # classification of the used component
+      technical information:
+        file: 
+        Hersteller/Manufacturer: 
+        Herstellerreferenz/Manufacturer reference: 
+        Verkäufer/Supplier: 
+        link: 
+        link data sheet:
+    component 6:
+      component amount: 2
+      folder directory: 
+      component category: black banana plug  # classification of the used component
+      technical information:
+        file: 
+        Hersteller/Manufacturer: 
+        Herstellerreferenz/Manufacturer reference: 
+        Verkäufer/Supplier: 
+        link: 
+        link data sheet:
+    component 7:
+      component amount: 
+      folder directory: modPhotoRct\02_MATERIALS\00_electronics\06_small_parts
+      component category: 04_silicone_wire  # classification of the used component
+      technical information:
+        file: 
+        Hersteller/Manufacturer: 
+        Herstellerreferenz/Manufacturer reference: 
+        Verkäufer/Supplier: 
+        link: 
+        link data sheet:
+    component 8:
+      component amount: 
+      folder directory: 
+      component category: fuse  # classification of the used component
+      technical information:
+        file: 
+        Hersteller/Manufacturer: 
+        Herstellerreferenz/Manufacturer reference: 
+        Verkäufer/Supplier: 
+        link: 
+        link data sheet:
+    component 9:
+      component amount: 
+      folder directory: 
+      component category: fuse holder  # classification of the used component
+      technical information:
+        file: 
+        Hersteller/Manufacturer: 
+        Herstellerreferenz/Manufacturer reference: 
+        Verkäufer/Supplier: 
+        link: 
+        link data sheet:
+    component 10:
+      component amount: 2
+      folder directory: modPhotoRct\02_MATERIALS\00_electronics\05_power_supplies
+      component category: 02_Analoge_ACDC_Laboratory_Power_Supply  # classification of the used component
+      technical information:
+        file: KORAD_KA3005P.txt
+        Hersteller/Manufacturer: KORAD
+        Herstellerreferenz/Manufacturer reference: KA3005P
+        Verkäufer/Supplier: reichelt electronik
+        link: https://www.reichelt.de/de/de/labornetzgeraet-0-30-v-0-5-a-stabilisiert-programmierbar-ka3005p-p135689.html?r=1
+        link data sheet: https://cdn-reichelt.de/documents/datenblatt/D400/2013-07-31_KA3005D_P_BDA.pdf
