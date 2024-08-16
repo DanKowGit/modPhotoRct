@@ -1,0 +1,5 @@
+Hersteller/Manufacturer: KORAD
+Herstellerreferenz/Manufacturer reference: KA3005P
+Verkäufer/Supplier: reichelt electronik
+link: https://www.reichelt.de/de/de/labornetzgeraet-0-30-v-0-5-a-stabilisiert-programmierbar-ka3005p-p135689.html?r=1
+link data sheet: https://cdn-reichelt.de/documents/datenblatt/D400/2013-07-31_KA3005D_P_BDA.pdf
