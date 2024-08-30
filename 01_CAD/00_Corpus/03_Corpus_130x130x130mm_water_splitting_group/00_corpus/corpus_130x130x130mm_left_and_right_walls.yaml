@@ -1,0 +1,282 @@
+curation:
+  - role: developer  # person who develops the module
+    name: Alexander Eith
+    department: Institute of organic and macromolecular chemistry
+    institution: FSU Jena
+    location: Jena
+  - role: principle investigator  # PI of module developer
+    name: Jacob Schneidewind
+    department: Institute of organic and macromolecular chemistry
+    institution: FSU Jena
+    location: Jena
+  - role: supervisor  # person who supervises the project
+    name: Daniel Kowalczyk
+    department: Institute of Chemical Engineering
+    institution: Ulm University
+    location: Ulm
+
+project:  # project information, what kind of module is to be developed
+  date: 2024-08-20
+  title: irradiation module development
+  description: left and right wall with recess for apertures
+
+experimental:  # information on the developed module
+  research question:  # what is the purpose of the developed module?
+  module name: 2024_08_27_Reaktorkorpus_links+rechts
+  folder directory: modPhotoRct\01_CAD\00_Corpus\03_Corpus_130x130x130mm_water_splitting_group\00Corpus
+  CAD:
+    CAD file: 2024_08_27_Reaktorkorpus_links+rechts.ipt
+    stl file: 2024_08_27_Reaktorkorpus_links+rechts.stl
+    url: https://github.com/DanKowGit/modPhotoRct.git
+    CAD software:  # software used for CAD modeling
+      name: Autodesk Inventor Professional
+      version: 2025
+  module components:
+    component 1: Dummy aperture
+      component amount: 1
+      component category: 01_apertures  # classification of the used component
+      folder directory: modPhotoRct\01_CAD\00_Corpus\03_Corpus_130x130x130mm_water_splitting_group\01_apertures
+      technical information:
+        Hersteller/Manufacturer: 3D printed
+        Material: black PLA
+        CAD file: 2024_08_20_dummy_aperture.ipt
+        stl file: 2024_08_20_dummy_aperture.stl
+    component 2: Aperture for holding an LED
+      component amount: 1
+      component category: 01_apertures  # classification of the used component
+      folder directory: modPhotoRct\01_CAD\00_Corpus\03_Corpus_130x130x130mm_water_splitting_group\01_apertures
+      technical information:
+        Hersteller/Manufacturer: 3D printed
+        Material: black PLA
+        CAD file: 2024_08_22_LED_blende.ipt
+        stl file: 2024_08_22_LED_blende.stl
+    component 3: Aperture for holding a beam combiner for high power LEDs
+      component amount: 1
+      component category: 01_apertures  # classification of the used component
+      folder directory: modPhotoRct\01_CAD\00_Corpus\03_Corpus_130x130x130mm_water_splitting_group\01_apertures
+      technical information:
+        Hersteller/Manufacturer: 3D printed
+        Material: black PLA
+        CAD file: 2024_08_26_beam_combiner_blende.ipt
+        stl file: 2024_08_26_beam_combiner_blende.stl
+    component 4: Holder for NS14 5 mL flask
+      component amount: 1
+      component category: 02_sample_holders  # classification of the used component
+      folder directory: modPhotoRct\01_CAD\00_Corpus\03_Corpus_130x130x130mm_water_splitting_group\02_sample_holders
+      technical information:
+        Hersteller/Manufacturer: 3D printed
+        Material: black PLA
+        CAD file: 2024_08_28_Holder_NS14.ipt
+        stl file: 2024_08_28_Holder_NS14.stl
+    component 5: Holder for NS14 5 mL flask, disk
+      component amount: 1
+      component category: 02_sample_holders  # classification of the used component
+      folder directory: modPhotoRct\01_CAD\00_Corpus\03_Corpus_130x130x130mm_water_splitting_group\02_sample_holders
+      technical information:
+        Hersteller/Manufacturer: 3D printed
+        Material: black PLA
+        CAD file: 2024_08_28_Holder_disk_NS14.ipt
+        stl file: 2024_08_28_Holder_disk_NS14.stl
+    component 6: Holder for GL14 5 mL flask
+      component amount: 1
+      component category: 02_sample_holders  # classification of the used component
+      folder directory: modPhotoRct\01_CAD\00_Corpus\03_Corpus_130x130x130mm_water_splitting_group\02_sample_holders
+      technical information:
+        Hersteller/Manufacturer: 3D printed
+        Material: black PLA
+        CAD file: 2024_08_28_Holder_GL14.ipt
+        stl file: 2024_08_28_Holder_GL14.stl
+    component 7: Holder for GL14 5 mL flask, disk
+      component amount: 1
+      component category: 02_sample_holders  # classification of the used component
+      folder directory: modPhotoRct\01_CAD\00_Corpus\03_Corpus_130x130x130mm_water_splitting_group\02_sample_holders
+      technical information:
+        Hersteller/Manufacturer: 3D printed
+        Material: black PLA
+        CAD file: 2024_08_28_Holder_disk_GL14.ipt
+        stl file: 2024_08_28_Holder_disk_GL14.stl
+    component 8: Holder for Young type NMR tube
+      component amount: 1
+      component category: 02_sample_holders  # classification of the used component
+      folder directory: modPhotoRct\01_CAD\00_Corpus\03_Corpus_130x130x130mm_water_splitting_group\02_sample_holders
+      technical information:
+        Hersteller/Manufacturer: 3D printed
+        Material: black PLA
+        CAD file: 2024_08_28_Holder_NMR_tube.ipt
+        stl file: 2024_08_28_Holder_NMR_tube.stl
+    component 9: Holder for Young type NMR tube, disk
+      component amount: 1
+      component category: 02_sample_holders  # classification of the used component
+      folder directory: modPhotoRct\01_CAD\00_Corpus\03_Corpus_130x130x130mm_water_splitting_group\02_sample_holders
+      technical information:
+        Hersteller/Manufacturer: 3D printed
+        Material: black PLA
+        CAD file: 2024_08_28_Holder_disk_NMR_tube.ipt
+        stl file: 2024_08_28_Holder_disk_NMR_tube.stl
+    component 10: Holder for GL25 50 mL flask
+      component amount: 1
+      component category: 02_sample_holders  # classification of the used component
+      folder directory: modPhotoRct\01_CAD\00_Corpus\03_Corpus_130x130x130mm_water_splitting_group\02_sample_holders
+      technical information:
+        Hersteller/Manufacturer: 3D printed
+        Material: black PLA
+        CAD file: 2024_08_28_Holder_GL25.ipt
+        stl file: 2024_08_28_Holder_GL25.stl
+    component 11: Holder for GL25 50 mL flask, disk
+      component amount: 1
+      component category: 02_sample_holders  # classification of the used component
+      folder directory: modPhotoRct\01_CAD\00_Corpus\03_Corpus_130x130x130mm_water_splitting_group\02_sample_holders
+      technical information:
+        Hersteller/Manufacturer: 3D printed
+        Material: black PLA
+        CAD file: 2024_08_28_Holder_disk_GL25.ipt
+        stl file: 2024_08_28_Holder_disk_GL25.stl
+    component 12: Holder for GC vial
+      component amount: 1
+      component category: 02_sample_holders  # classification of the used component
+      folder directory: modPhotoRct\01_CAD\00_Corpus\03_Corpus_130x130x130mm_water_splitting_group\02_sample_holders
+      technical information:
+        Hersteller/Manufacturer: 3D printed
+        Material: black PLA
+        CAD file: 2024_08_28_Holder_GC_vial.ipt
+        stl file: 2024_08_28_Holder_GC_vial.stl
+    component 13: Holder for GC vial, disk
+      component amount: 1
+      component category: 02_sample_holders  # classification of the used component
+      folder directory: modPhotoRct\01_CAD\00_Corpus\03_Corpus_130x130x130mm_water_splitting_group\02_sample_holders
+      technical information:
+        Hersteller/Manufacturer: 3D printed
+        Material: black PLA
+        CAD file: 2024_08_28_Holder_disk_GC_vial.ipt
+        stl file: 2024_08_28_Holder_disk_GC_vial.stl
+    component 14: High-Power LED Cllimator Source, 22 mm, 405 nm
+      component amount: 1
+      component category: modPhotoRct\01_CAD\00_Corpus\03_Corpus_130x130x130mm_water_splitting_group\03_LED # classification of the used component
+      folder directory: 03_LED
+      technical information:
+        file: 
+        Hersteller/Manufacturer: Mightex
+        Herstellerreferenz/Manufacturer reference: BLS-LCS-0405-12-22
+        Verkäufer/Supplier: Mightex
+        link: https://www.mightexsystems.com/product/high-power-led-collimator-sources-22-mm-clear-aperture/
+        link data sheet: https://mightex.wpenginepowered.com/wp-content/uploads/2020/06/Led_collimator_sources_high_power_datasheet_v19_June_2020.pdf
+    component 15: High-Power LED Cllimator Source, 22 mm, 415 nm
+      component amount: 1
+      component category: modPhotoRct\01_CAD\00_Corpus\03_Corpus_130x130x130mm_water_splitting_group\03_LED # classification of the used component
+      folder directory: 03_LED
+      technical information:
+        file: 
+        Hersteller/Manufacturer: Mightex
+        Herstellerreferenz/Manufacturer reference: BLS-LCS-0415-12-22
+        Verkäufer/Supplier: Mightex
+        link: https://www.mightexsystems.com/product/high-power-led-collimator-sources-22-mm-clear-aperture/
+        link data sheet: https://mightex.wpenginepowered.com/wp-content/uploads/2020/06/Led_collimator_sources_high_power_datasheet_v19_June_2020.pdf
+    component 16: High-Power LED Cllimator Source, 22 mm, 6500 K
+      component amount: 1
+      component category: modPhotoRct\01_CAD\00_Corpus\03_Corpus_130x130x130mm_water_splitting_group\03_LED # classification of the used component
+      folder directory: 03_LED
+      technical information:
+        file: 
+        Hersteller/Manufacturer: Mightex
+        Herstellerreferenz/Manufacturer reference: BLS-LCS-6500-12-22
+        Verkäufer/Supplier: Mightex
+        link: https://www.mightexsystems.com/product/high-power-led-collimator-sources-22-mm-clear-aperture/
+        link data sheet: https://mightex.wpenginepowered.com/wp-content/uploads/2020/06/Led_collimator_sources_high_power_datasheet_v19_June_2020.pdf
+    component 17: Super High-Power LED Cllimator Source, 22 mm, 365 nm
+      component amount: 1
+      component category: modPhotoRct\01_CAD\00_Corpus\03_Corpus_130x130x130mm_water_splitting_group\03_LED # classification of the used component
+      folder directory: 03_LED
+      technical information:
+        file: 
+        Hersteller/Manufacturer: Mightex
+        Herstellerreferenz/Manufacturer reference: LCS-0365-76-22
+        Verkäufer/Supplier: Mightex
+        link: https://www.mightexsystems.com/product/super-high-power-led-collimator-sources-22-mm-clear-aperture/
+        link data sheet: https://mightex.wpenginepowered.com/wp-content/uploads/2020/06/Led_collimator_sources_high_power_datasheet_v19_June_2020.pdf
+    component 18: Super High-Power LED Cllimator Source, 22 mm, 405 nm
+      component amount: 1
+      component category: modPhotoRct\01_CAD\00_Corpus\03_Corpus_130x130x130mm_water_splitting_group\03_LED # classification of the used component
+      folder directory: 03_LED
+      technical information:
+        file: 
+        Hersteller/Manufacturer: Mightex
+        Herstellerreferenz/Manufacturer reference: LCS-0405-76-22
+        Verkäufer/Supplier: Mightex
+        link: https://www.mightexsystems.com/product/super-high-power-led-collimator-sources-22-mm-clear-aperture/
+        link data sheet: https://mightex.wpenginepowered.com/wp-content/uploads/2020/06/Led_collimator_sources_high_power_datasheet_v19_June_2020.pdf
+    component 19: Super High-Power LED Cllimator Source, 22 mm, 470 nm
+      component amount: 1
+      component category: modPhotoRct\01_CAD\00_Corpus\03_Corpus_130x130x130mm_water_splitting_group\03_LED # classification of the used component
+      folder directory: 03_LED
+      technical information:
+        file: 
+        Hersteller/Manufacturer: Mightex
+        Herstellerreferenz/Manufacturer reference: LCS-0470-76-22
+        Verkäufer/Supplier: Mightex
+        link: https://www.mightexsystems.com/product/super-high-power-led-collimator-sources-22-mm-clear-aperture/
+        link data sheet: https://mightex.wpenginepowered.com/wp-content/uploads/2020/06/Led_collimator_sources_high_power_datasheet_v19_June_2020.pdf
+    component 20: Super High-Power LED Cllimator Source, 22 mm, 6500 K
+      component amount: 1
+      component category: modPhotoRct\01_CAD\00_Corpus\03_Corpus_130x130x130mm_water_splitting_group\03_LED # classification of the used component
+      folder directory: 03_LED
+      technical information:
+        file: 
+        Hersteller/Manufacturer: Mightex
+        Herstellerreferenz/Manufacturer reference: LCS-6500-76-22
+        Verkäufer/Supplier: Mightex
+        link: https://www.mightexsystems.com/product/super-high-power-led-collimator-sources-22-mm-clear-aperture/
+        link data sheet: https://mightex.wpenginepowered.com/wp-content/uploads/2020/06/Led_collimator_sources_high_power_datasheet_v19_June_2020.pdf
+    component 21: Beam combiner for LEDs, cu off between 400 and 415 nm
+      component amount: 1
+      component category: modPhotoRct\01_CAD\00_Corpus\03_Corpus_130x130x130mm_water_splitting_group\03_LED # classification of the used component
+      folder directory: 03_LED
+      technical information:
+        file: 
+        Hersteller/Manufacturer: Mightex
+        Herstellerreferenz/Manufacturer reference: LCS-BC25-0409
+        Verkäufer/Supplier: Mightex
+        link: https://www.mightexsystems.com/product/multi-wavelength-beam-combiners-for-led-collimator-sources/
+        link data sheet: https://mightex.wpenginepowered.com/wp-content/uploads/2019/04/LCS_beam_combiner_spec_v4_July2014.pdf
+    component 22: Stabilizer for both walls
+      component amount: 1
+      component category: 04_misc  # classification of the used component
+      folder directory: modPhotoRct\01_CAD\00_Corpus\03_Corpus_130x130x130mm_water_splitting_group\04_misc
+      technical information:
+        Hersteller/Manufacturer: 3D printed
+        Material: black PLA
+        CAD file: 2021_03_30_Stabilisator_Korpus.ipt
+        stl file: 2021_03_30_Stabilisator_Korpus.stl
+    component 23: NS14 5 mL Schlenk-flask reactor
+      component amount: 1
+      component category: 05_misc  # classification of the used component
+      folder directory: modPhotoRct\01_CAD\00_Corpus\03_Corpus_130x130x130mm_water_splitting_group\05_reactors
+      technical information:
+        Hersteller/Manufacturer: custom made from Glasblower
+        Material: Borosilicate glass
+        Foto: NS14 5 mL schlenk flask.jpg
+    component 24: GL14 5 mL Schlenk-flask reactor
+      component amount: 1
+      component category: 05_misc  # classification of the used component
+      folder directory: modPhotoRct\01_CAD\00_Corpus\03_Corpus_130x130x130mm_water_splitting_group\05_reactors
+      technical information:
+        Hersteller/Manufacturer: custom made from Glasblower
+        Material: Borosilicate glass
+        Foto: GL14 5 mL schlenk flask.jpg  
+    component 25: GL25 50 mL Schlenk-flask reactor
+      component amount: 1
+      component category: 05_misc  # classification of the used component
+      folder directory: modPhotoRct\01_CAD\00_Corpus\03_Corpus_130x130x130mm_water_splitting_group\05_reactors
+      technical information:
+        Hersteller/Manufacturer: custom made from Glasblower
+        Material: Borosilicate glass
+        Foto: GL25 50 mL schlenk flask.jpg
+    component 26: Young type NMR tube
+      component amount: 1
+      component category: 05_misc  # classification of the used component
+      folder directory: modPhotoRct\01_CAD\00_Corpus\03_Corpus_130x130x130mm_water_splitting_group\05_reactors
+      technical information:
+        Hersteller/Manufacturer: custom made from Glasblower
+        Material: Borosilicate glass
+        Foto: Young type NMR tube.jpg
+
+
