@@ -1,0 +1,28 @@
+curation:
+  - role: developer  # person who develops the module
+    name: Alexander Eith
+    department: Institute of organic and macromolecular chemistry
+    institution: FSU Jena
+    location: Jena
+  - role: principle investigator  # PI of module developer
+    name: Jacob Schneidewind
+    department: Institute of organic and macromolecular chemistry
+    institution: FSU Jena
+    location: Jena
+
+project:  # project information, what kind of module is to be developed
+  date: 2025_03_10
+  title: irradiation module development
+  description: front wall
+
+experimental:  # information on the developed module
+  research question:  # what is the purpose of the developed module?
+  module name: 2025_03_10_Reaktor_oben
+  folder directory: modPhotoRct\01_CAD\00_Corpus\03_Corpus_130x130x130mm_water_splitting_group_power_measurement\00Corpus
+  CAD:
+    CAD file: 2025_03_10_Reaktor_oben.ipt
+    stl file: 2025_03_10_Reaktor_oben.stl
+    url: https://github.com/DanKowGit/modPhotoRct.git
+    CAD software:  # software used for CAD modeling
+      name: Autodesk Inventor Professional
+      version: 2025

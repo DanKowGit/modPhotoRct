@@ -1,0 +1,45 @@
+curation:
+  - role: developer  # person who develops the module
+    name: Alexander Eith
+    department: Institute of organic and macromolecular chemistry
+    institution: FSU Jena
+    location: Jena
+  - role: principle investigator  # PI of module developer
+    name: Jacob Schneidewind
+    department: Institute of organic and macromolecular chemistry
+    institution: FSU Jena
+    location: Jena
+
+project:  # project information, what kind of module is to be developed
+  date: 2025_01_29
+  title: irradiation module development
+  description: back wall
+
+experimental:  # information on the developed module
+  research question:  # what is the purpose of the developed module?
+  module name: 2025_01_29_Reaktorkorpus_hinten
+  folder directory: modPhotoRct\01_CAD\00_Corpus\03_Corpus_130x130x130mm_water_splitting_group_power_measurement\00Corpus
+  CAD:
+    CAD file: 2025_01_29_Reaktorkorpus_hinten.ipt
+    stl file: 2025_01_29_Reaktorkorpus_hinten.stl
+    url: https://github.com/DanKowGit/modPhotoRct.git
+    CAD software:  # software used for CAD modeling
+      name: Autodesk Inventor Professional
+      version: 2025
+  component 1: 2024_08_26_Fuss_5mm
+      component amount: 2
+      component category: 04_misc  # classification of the used component
+      folder directory: modPhotoRct\01_CAD\00_Corpus\03_Corpus_130x130x130mm_water_splitting_group_power_measurement\04_misc
+      technical information:
+        Hersteller/Manufacturer: 3D printed
+        Material: black PLA
+        CAD file: 2024_08_26_Fuss_5mm.ipt
+        stl file: 2024_08_26_Fuss_5mm.stl
+      module components:
+    component 2: M3 screws
+      component amount: 8
+      component category: 04_misc  # classification of the used component
+      folder directory: modPhotoRct\01_CAD\00_Corpus\03_Corpus_130x130x130mm_water_splitting_group\04_misc
+      technical information:
+        Hersteller/Manufacturer: Obi
+        Material: steel

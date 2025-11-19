@@ -1,0 +1,55 @@
+curation:
+  - role: developer  # person who develops the module
+    name: Alexander Eith
+    department: Institute of organic and macromolecular chemistry
+    institution: FSU Jena
+    location: Jena
+  - role: principle investigator  # PI of module developer
+    name: Jacob Schneidewind
+    department: Institute of organic and macromolecular chemistry
+    institution: FSU Jena
+    location: Jena
+  - role: supervisor  # person who supervises the project
+    name: Daniel Kowalczyk
+    department: Institute of Chemical Engineering
+    institution: Ulm University
+    location: Ulm
+
+project:  # project information, what kind of module is to be developed
+  date: 2024-08-20
+  title: irradiation module development
+  description: left and right wall with recess for apertures
+
+experimental:  # information on the developed module
+  research question:  # what is the purpose of the developed module?
+  module name: 2024_08_27_Reaktorkorpus_links+rechts
+  folder directory: modPhotoRct\01_CAD\00_Corpus\03_Corpus_130x130x130mm_water_splitting_group_power_measurement\00Corpus
+  CAD:
+    CAD file: 2024_08_27_Reaktorkorpus_links+rechts.ipt
+    stl file: 2024_08_27_Reaktorkorpus_links+rechts.stl
+    url: https://github.com/DanKowGit/modPhotoRct.git
+    CAD software:  # software used for CAD modeling
+      name: Autodesk Inventor Professional
+      version: 2025
+  module components:
+    component 1: Dummy aperture
+      component amount: 1
+      component category: 01_apertures  # classification of the used component
+      folder directory: modPhotoRct\01_CAD\00_Corpus\03_Corpus_130x130x130mm_water_splitting_group_power_measurement\01_apertures
+      technical information:
+        Hersteller/Manufacturer: 3D printed
+        Material: black PLA
+        CAD file: 2024_08_20_dummy_aperture.ipt
+        stl file: 2024_08_20_dummy_aperture.stl
+    component 2: Aperture for power measurement
+      component amount: 1
+      component category: 01_apertures  # classification of the used component
+      folder directory: modPhotoRct\01_CAD\00_Corpus\03_Corpus_130x130x130mm_water_splitting_group_power_measurement\01_apertures
+      technical information:
+        Hersteller/Manufacturer: 3D printed
+        Material: black PLA
+        CAD file: power_sensor_aperture_V1.1.ipt
+        stl file: power_sensor_aperture_V1.1.stl
+
+
+

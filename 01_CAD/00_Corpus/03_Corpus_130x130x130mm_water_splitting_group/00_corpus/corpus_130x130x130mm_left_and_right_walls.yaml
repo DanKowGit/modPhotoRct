@@ -278,5 +278,13 @@ experimental:  # information on the developed module
         Hersteller/Manufacturer: custom made from Glasblower
         Material: Borosilicate glass
         Foto: Young type NMR tube.jpg
-
+    component 27: beam combiner UHP LED aperture
+      component amount: 1
+      component category: 01_apertures  # classification of the used component
+      folder directory: modPhotoRct\01_CAD\00_Corpus\03_Corpus_130x130x130mm_water_splitting_group\01_apertures
+      technical information:
+        Hersteller/Manufacturer: 3D printed
+        Material: black PLA
+        CAD file: 2024_09_13_beam_combiner_blende_UHP_LED.ipt
+        stl file: 2024_09_13_beam_combiner_blende_UHP_LED.stl
 
